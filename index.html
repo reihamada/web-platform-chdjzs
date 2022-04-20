@@ -7,9 +7,14 @@
   <body>
     <h1>一文字つづ縦</h1>
     <div style="flex-direction: column">
-      <input type="text" id="text" onchange="convertVirtical();" />
-      <button onclick="convertVirtical();">変換</button>
-      <textarea id="result"> </textarea>
+      <input
+        type="text"
+        id="text"
+        onchange="convertVirtical();"
+        placeholder="あいうえお"
+      />
+      <button onclick="convertVirtical();">Change!</button>
+      <textarea id="result" cols="40" rows="10"> </textarea>
     </div>
   </body>
 </html>
